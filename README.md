@@ -14,3 +14,8 @@ Aplicativo de astronomia com navegação sequencial entre telas usando o `StackN
 Aplicativo de monitoramento espacial que utiliza o `StackNavigator` para apresentar a **localização em tempo real da ISS** e informações sobre **meteoros**.
 **Mecânicas:** Navegação por pilha (`StackNavigator`), telas dedicadas a dados de APIs espaciais (ISS e Meteoro) e interface otimizada para monitoramento de dados.
 **Pasta:** `/Meteoros`
+
+### 📚 Tela de Pesquisa de Transações (Library Search)
+Componente de tela dedicado à **busca e listagem de transações** de empréstimo e devolução de livros em uma biblioteca virtual.
+**Mecânicas:** Integração com **Firestore** (`db` object), busca por **ID do Livro** (`B...`) ou **ID do Estudante** (`S...`), listagem infinita com `FlatList` (`fetchMoreTransactions`) e renderização detalhada de cada transação.
+**Pasta:** `/Biblioteca`
