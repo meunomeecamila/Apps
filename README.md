@@ -9,3 +9,8 @@ Configuração inicial de um aplicativo móvel que gerencia o fluxo de **autenti
 Aplicativo de astronomia com navegação sequencial entre telas usando o `StackNavigator`. Focado em visualizar recursos como **mapas estelares**, **fotos diárias** e informações sobre **naves espaciais**.
 **Mecânicas:** Estrutura de navegação (`StackNavigator`), componentes de tela dedicados (`StarMap`, `DailyPic`, `SpaceCraft`) e gestão do fluxo de navegação através do `NavigationContainer`.
 **Pasta:** `/Space`
+
+### 🛰️ Rastreador Espacial (Space Tracker)
+Aplicativo de monitoramento espacial que utiliza o `StackNavigator` para apresentar a **localização em tempo real da ISS** e informações sobre **meteoros**.
+**Mecânicas:** Navegação por pilha (`StackNavigator`), telas dedicadas a dados de APIs espaciais (ISS e Meteoro) e interface otimizada para monitoramento de dados.
+**Pasta:** `/Meteoros`
